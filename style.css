@@ -16,13 +16,13 @@ p {
   font-size: 18px;
 }
 
-
 #main {
   width: 40vw;
   min-width: 400px;
   margin: auto;
   border-radius: 50px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgb(44 58 70 / 92%);
+  box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.479);
   padding: 10px;
 }
 
@@ -57,13 +57,17 @@ select {
   border-radius: 5px;
 }
 
-input[type="radio"], input[type="checkbox"] {
+input[type='radio'],
+input[type='checkbox'] {
   width: auto;
 }
 
 textarea {
   width: 90%;
   border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
 }
 
 .form-group {
